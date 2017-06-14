@@ -73,7 +73,7 @@ public class Organisation {
 	 * Prints the organisation structure.
 	 */
 	public void printOrganisationStructure() {
-		System.out.println("**************************************************************************************");
+		System.out.println("******************************ORGANISATION STRUCTURE*********************************");
 		prettyPrintSubordinates(ceo, 0);
 		System.out.println("**************************************************************************************");
 	}
